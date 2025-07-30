@@ -5,7 +5,7 @@ import DarkVeil from "./DarkVeil";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen overflow-hidden">
+    <section className="relative min-h-screen overflow-hidden pt-[5vh]">
       <div className="h-full flex text-white flex-col justify-center items-center px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
