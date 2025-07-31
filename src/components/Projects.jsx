@@ -10,7 +10,7 @@ export default function Projects() {
         "Implemented web scraping",
         "Deployed on AWS EC2",
       ],
-      desc: "Telegram bot that scrapes job postings from work.ua and delivers them to users in real-time.",
+      desc: "Developed and deployed a Telegram bot on AWS EC2. Integrated external APIs, performed data validation, and ensured reliability through manual testing and logging. Demonstrated skills in API integration, backend scripting, and cloud hosting.",
       github: "https://github.com/Olena3K/JobSearchBot",
       demo: "https://t.me/SmartJobAlertsBot",
     },
@@ -24,7 +24,7 @@ export default function Projects() {
         "Monitored with CloudWatch",
         "Deployed on AWS EC2",
       ],
-      desc: "Containerized Flask app with CI/CD pipeline, infrastructure-as-code, health monitoring, and AWS deployment.",
+      desc: "Provisioned infrastructure on AWS using Terraform and deployed a Dockerized application on ECS with EC2 launch type. CI/CD pipeline automated with GitHub Actions, enabling smooth updates and version control. This project demonstrates proficiency in Infrastructure as Code, containerization, cloud resource orchestration, and end-to-end DevOps workflows.",
       github: "https://github.com/Olena3K/cloud-infra-ec2-rep",
     },
     {
@@ -39,7 +39,7 @@ export default function Projects() {
         "Configured NGINX",
         "Deployed on AWS EC2",
       ],
-      desc: "Multi-page perfume shop with filters, animations, user authentication, CI/CD, and deployment on AWS with Docker.",
+      desc: "Building a feature-rich, full-stack e-commerce platform using Django REST Framework and React. Focused on backend architecture, API design, user authentication, order management, and PostgreSQL for structured data storage. Ensures seamless interaction between backend and frontend with attention to scalability and maintainability.",
     },
     {
       title: "Crypto Dashboard",
@@ -50,7 +50,7 @@ export default function Projects() {
         "Styled using Tailwind CSS",
         "Managed local data with SQLite",
       ],
-      desc: "Real-time cryptocurrency price dashboard using CoinGecko API with historical tracking and visualizations.",
+      desc: "Developed an interactive dashboard for real-time tracking of the top 10 cryptocurrencies using the CoinGecko API. Features historical data visualization with 7-day charts. Tech Stack: Python (Requests, Pandas), JavaScript, Chart.js, SQLite, Tailwind CSS, Streamlit / Power BI. Highlights data handling, API integration, and visual analytics."
       github: "https://github.com/Olena3K/crypto_dashboard",
     },
   ];
