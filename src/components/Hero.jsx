@@ -26,15 +26,17 @@ export default function Hero() {
           transition={{ duration: 1.5, delay: 0.3 }}
           className="text-lg md:text-base text-white max-w-xl"
         >
-          👋 Hi! I'm Olena — a recent graduate in Applied Linguistics with a
-          strong passion for technology and software development. I'm a skilled
-          Junior Developer focused on both Frontend and Backend, proficient in
-          building full-stack projects with React, Django, and FastAPI. <br />
-          🧰 I have rich practical experience working on real-world projects and
-          am well-versed in cloud technologies, DevOps practices, and
-          infrastructure as code using AWS, Docker, and Terraform. <br />
-          🤓 Self-organized and goal-driven, I continuously expand my skill set
-          while delivering clean, maintainable code and effective solutions.
+          👋 Hi! I'm Olena — a Junior Python & Cloud Developer with a strong interest in
+          cloud infrastructure, backend systems, and data engineering.
+          
+          I build and deploy applications using Python, Django, AWS, Docker, and Terraform,
+          and work with CI/CD pipelines to automate deployments.
+          
+          My projects include cloud-based applications, infrastructure automation,
+          and data-driven tools.
+          
+          Currently seeking a Junior role where I can contribute to building scalable
+          backend, cloud, or data systems.
         </motion.p>
 
         <motion.div
