@@ -1,20 +1,42 @@
 import ScrollReveal from "./ScrollReveal";
 
 export default function Skills() {
-  const skills = [
-    "Python (Advanced)",
-    "Django & Django REST Framework",
-    "React.js",
-    "HTML5, CSS3 & Tailwind CSS",
-    "PostgreSQL & SQLite",
-    "Docker & DockerHub",
-    "CI/CD (GitHub Actions)",
-    "AWS (EC2, S3, ECR, VPC)",
-    "Git & GitHub",
-    "FastAPI (Basics)",
-    "TypeScript (Basics)",
-    "SDLC",
-  ];
+  const skills = {
+    Languages: ["Python", "JavaScript"],
+
+    Backend: [
+      "Django",
+      "Django REST Framework",
+      "FastAPI",
+    ],
+
+    "Cloud & DevOps": [
+      "AWS (EC2, S3, ECR, VPC)",
+      "Docker",
+      "Terraform",
+      "CI/CD (GitHub Actions)",
+    ],
+
+    "Databases & Data": [
+      "SQL",
+      "PostgreSQL",
+      "SQLite",
+      "REST APIs",
+      "JSON",
+    ],
+
+    Frontend: [
+      "React",
+      "HTML",
+      "CSS",
+      "Chart.js",
+    ],
+
+    Tools: [
+      "Git",
+      "GitHub",
+    ],
+  };
 
   return (
     <section className="py-20 px-4">
@@ -22,28 +44,35 @@ export default function Skills() {
         💻 Technical Skills
       </h2>
 
-      <div className="flex flex-col md:flex-row justify-between max-w-6xl ml-[30px] mx-auto">
-        <div className="md:w-1/2">
-          <ScrollReveal
-            baseOpacity={0.2}
-            enableBlur={true}
-            baseRotation={0.1}
-            blurStrength={6}
-            rotationEnd="bottom bottom"
-            wordAnimationEnd="bottom bottom"
-          >
-            <ul className="list-none text-left space-y-2 text-white text-lg">
-              {skills.map((skill, i) => (
-                <li key={i}>
-                  <span className="inline-block word"> – {skill}</span>
-                </li>
-              ))}
-            </ul>
-          </ScrollReveal>
-        </div>
-        <div className="md:w-1/2 mb-10 md:mb-0">
-          {/* Тут буде або пусто, або анімація */}
-        </div>
+      <div className="max-w-5xl mx-auto">
+        <ScrollReveal
+          baseOpacity={0.2}
+          enableBlur={true}
+          baseRotation={0.1}
+          blurStrength={6}
+          rotationEnd="bottom bottom"
+          wordAnimationEnd="bottom bottom"
+        >
+          <div className="grid md:grid-cols-2 gap-8 text-white text-lg">
+
+            {Object.entries(skills).map(([category, items], i) => (
+              <div key={i}>
+                <h3 className="font-semibold text-xl mb-2 text-indigo-400">
+                  {category}
+                </h3>
+
+                <ul className="space-y-1">
+                  {items.map((item, j) => (
+                    <li key={j}>
+                      <span className="inline-block word">– {item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   );
