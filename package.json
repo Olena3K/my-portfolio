@@ -1,6 +1,7 @@
 {
   "name": "olena-portfolio",
   "version": "1.0.0",
+  "homepage": "https://olena3k.github.io/my-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
