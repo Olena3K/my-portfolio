@@ -50,7 +50,7 @@ export default function Projects() {
         "Styled using Tailwind CSS",
         "Managed local data with SQLite",
       ],
-      desc: "Developed an interactive dashboard for real-time tracking of the top 10 cryptocurrencies using the CoinGecko API. Features historical data visualization with 7-day charts. Tech Stack: Python (Requests, Pandas), JavaScript, Chart.js, SQLite, Tailwind CSS, Streamlit / Power BI. Highlights data handling, API integration, and visual analytics."
+      desc: "Developed an interactive dashboard for real-time tracking of the top 10 cryptocurrencies using the CoinGecko API. Features historical data visualization with 7-day charts. Tech Stack: Python (Requests, Pandas), JavaScript, Chart.js, SQLite, Tailwind CSS, Streamlit / Power BI. Highlights data handling, API integration, and visual analytics.",
       github: "https://github.com/Olena3K/crypto_dashboard",
     },
   ];
